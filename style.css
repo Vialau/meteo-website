@@ -6,8 +6,11 @@ body{
   color: black;
   text-align: center;
   padding-top: 100px;
+  margin-bottom: 50px;
 }
 
 #meteo {
 text-align: center;
+padding: 100px;
+box-shadow: 2px 2px 2px 3px #C0C2CA;
 }
