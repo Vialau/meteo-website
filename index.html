@@ -10,35 +10,52 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
     <!-- OWN CSS -->
       <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
     <!-- Favicon -->
       <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
 
     <title>Météo du jour</title>
+
   </head>
+
+ <!-- Body -->
+
   <body>
+
+  <!-- Title -->
     <div class="title">
       <h1>METEO DU JOUR @location</h1>
     </div>
 
+      <!-- End of Title -->
+
+
+      <!-- First module -->
 <div class="container">
   <div class="row">
-    <div class="col-xs col-sm">
+    <div class="col-xs-12 col-sm-6">
       <div id="meteo">
         <i class="fas fa-cloud-sun"></i>
         <h2>Prévisions pour aujourd'hui</h2>
           <h3>@location</h3>
-
       </div>
     </div>
 
-    <div class="col-xs col-sm">
+    <div class="col-xs-12 col-sm-6">
       <div id="info">
         <i class="fas fa-info-circle"></i>
         <h2>Informations du jour</h2>
@@ -55,9 +72,14 @@
   </div>
 </div>
 
+      <!-- End of First module -->
+
+
+       <!-- Second module -->
+
 <div class="container">
   <div class="row">
-    <div class="col-xs col-sm">
+    <div class="col-xs-12">
       <div id="previ">
 
         <h2>Prévisions de la semaine</h2>
@@ -84,6 +106,7 @@
   </div>
 </div>
 
+        <!-- End of Second module -->
 
 
 
