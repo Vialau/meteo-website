@@ -2,13 +2,14 @@ body {
   background-color: #E3E6EE;
 }
 
-.title {
+#intro {
   color: black;
   font-family: Oswald;
-  font-size: 100px;
+  font-size: 60px;
+  font-weight: bold;
   text-align: center;
-  padding-top: 100px;
-  margin-bottom: 50px;
+  padding: 30px;
+  margin-bottom: 30px;
   text-align: center;
 
 }
@@ -61,7 +62,18 @@ text-align: center;
   padding: 70px;
 }
 
+.footer {
+  background-color: black;
+  height: 60px;
+  color:#E8EAF3;
+  font-size: 15px;
+  padding: 20px;
+}
 
+.footer a {
+  color: #E8EAF3;
+  text-decoration: none;
+}
 
 
 
