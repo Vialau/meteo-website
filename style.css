@@ -1,5 +1,5 @@
 body{
-  background-color: #CCCFD6;
+  background-color: #E3E6EE;
 }
 
 .title {
@@ -9,6 +9,7 @@ body{
   text-align: center;
   padding-top: 100px;
   margin-bottom: 50px;
+  text-align: center;
 
 }
 
@@ -20,6 +21,7 @@ padding: 10px;
 box-shadow: 2px 2px 2px 1px #B9BBC2;
 background-color: white;
 margin: 15px;
+text-align: center;
 }
 
 #info {
@@ -30,6 +32,7 @@ padding: 10px;
 box-shadow: 2px 2px 2px 1px #B9BBC2;
 background-color: white;
 margin: 15px;
+text-align: center;
 }
 
 #info li {
@@ -40,3 +43,27 @@ margin: 15px;
 #info p {
   font-size: 15px;
 }
+
+#previ {
+text-align: center;
+font-family: Roboto;
+font-size: 60px;
+padding: 10px;
+box-shadow: 2px 2px 2px 1px #B9BBC2;
+background-color: white;
+margin: 15px;
+text-align: center;
+}
+
+#previ li {
+  font-size: 30px;
+  display: inline-block;
+  padding: 70px;
+}
+
+
+
+
+
+
+
