@@ -2,16 +2,41 @@ body{
   background-color: #CCCFD6;
 }
 
-#title {
+.title {
   color: black;
+  font-family: Oswald;
+  font-size: 100px;
   text-align: center;
   padding-top: 100px;
   margin-bottom: 50px;
+
 }
 
 #meteo {
 text-align: center;
-padding: 100px;
-box-shadow: 2px 2px 2px 3px #C0C2CA;
+font-family: Roboto;
+font-size: 60px;
+padding: 10px;
+box-shadow: 2px 2px 2px 1px #B9BBC2;
 background-color: white;
+margin: 15px;
+}
+
+#info {
+text-align: center;
+font-family: Roboto;
+font-size: 60px;
+padding: 10px;
+box-shadow: 2px 2px 2px 1px #B9BBC2;
+background-color: white;
+margin: 15px;
+}
+
+#info li {
+  font-size: 15px;
+  display: inline-block;
+}
+
+#info p {
+  font-size: 15px;
 }
