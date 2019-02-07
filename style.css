@@ -23,6 +23,12 @@ box-shadow: 2px 2px 2px 1px #B9BBC2;
 background-color: white;
 margin: 15px;
 text-align: center;
+border-radius: 5px;
+}
+
+#meteo p {
+  font-size: 15px;
+  padding: 10px;
 }
 
 #info {
@@ -34,6 +40,7 @@ box-shadow: 2px 2px 2px 1px #B9BBC2;
 background-color: white;
 margin: 15px;
 text-align: center;
+border-radius: 5px;
 }
 
 #info li {
@@ -54,6 +61,7 @@ box-shadow: 2px 2px 2px 1px #B9BBC2;
 background-color: white;
 margin: 15px;
 text-align: center;
+border-radius: 5px;
 }
 
 #previ li {
